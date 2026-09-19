@@ -1,1 +1,84 @@
+# Investigating the Molecular Basis of Familial Hypertrophic Cardiomyopathy: A Sequence Analysis of MYH7 Mutations
 
+**Author:** Jerson Lloyd T. Ortega
+**Institution:** Negros Oriental State University
+**Date:** September 19, 2026
+
+---
+
+## 1. Disease Background
+Familial hypertrophic cardiomyopathy (FHC) is a genetic cardiovascular disorder. 
+* **Clinical Characteristics:** The disease is primarily characterized by unexplained left ventricular hypertrophy (thickening of the heart muscle), which can lead to heart failure, arrhythmias, and is a leading cause of sudden cardiac death in young athletes. 
+* **Affected Tissues:** The myocardium (cardiac muscle tissue) of the heart.
+* **Genetic Basis & Inheritance:** FHC is a disease of the sarcomere (the basic contractile unit of muscle) and is most commonly inherited in an autosomal dominant pattern. 
+
+## 2. Gene and Normal Protein Function
+* **Gene Symbol:** MYH7
+* **Chromosome Location:** Chromosome 14 (14q11.2)
+* **Protein Encoded:** The gene normally encodes the cardiac beta-myosin heavy chain.
+* **Cellular Location:** The protein is normally found in the thick filaments of the sarcomere within cardiac muscle cells.
+* **Biological Function:** Beta-myosin heavy chain acts as a molecular motor. By hydrolyzing ATP and interacting with actin thin filaments, it generates the mechanical force required for cardiac muscle contraction.
+
+## 3. Documented Mutation
+* **Gene:** MYH7
+* **Reference Transcript Accession:** NM_000257.4
+* **Reference Protein Accession:** NP_000248.2
+* **Exact Variant Notation:** c.1208G>A
+* **Nucleotide Change:** Guanine substituted for Adenine at nucleotide position 1208.
+* **Predicted Protein Change:** p.Arg403Gln (R403Q)
+* **Mutation Type:** Missense
+* **ClinVar Accession:** VCV000014088
+* **Clinical Interpretation:** Pathogenic
+
+## 4. Hypothesis
+* **Mutation and Nucleotide Change:** c.1208G>A
+* **Predicted Mutation Type:** Missense substitution
+* **Predicted Effect on Reading Frame:** This mutation is a 1-for-1 base substitution and is not expected to shift the reading frame.
+* **Predicted Effect on Protein Length:** The protein length is predicted to remain exactly the same (1935 amino acids).
+* **Predicted Effect on Protein Function:** This mutation alters a critical amino acid in the myosin motor domain (the actin-binding interface). This will likely disrupt the cross-bridge cycling between myosin and actin, altering force generation during muscle contraction without destroying the overall structural integrity of the protein.
+
+## 5. Methods
+The normal reference coding sequence (CDS) for MYH7 (NM_000257.4) was obtained from the NCBI RefSeq database in FASTA format. A wild-type (WT) control was established by uploading the sequence to Galaxy and translating it using the EMBOSS transeq computational tool. To investigate the documented mutation, a copy of the WT CDS was manually edited to reproduce the c.1208G>A mutation. Both sequences were translated, and the predicted protein products were compared via sequence alignment to identify structural differences. A secondary experiment was conducted by creating an artificial 1-nucleotide deletion mutation in a WT CDS copy to observe alternate reading frame effects.
+
+## 6. Results
+**Wild-Type (WT) Control:**
+* CDS Length: 5808 nucleotides
+* Predicted Protein Length: 1935 amino acids
+* Start Codon: ATG
+* Stop Codon: TAA
+* First 10 Amino Acids: MGDSEMAVFG
+* Last 10 Amino Acids: DIGTKGLNEE
+
+**Documented Mutant (c.1208G>A):**
+* Mutant CDS Length: 5808 nucleotides
+* Mutant Protein Length: 1935 amino acids
+* Premature Stop Codon?: No
+
+## 7. WT versus Mutant Protein Comparison
+* **First Amino-Acid Difference:** The sequences first differ at amino acid position 403.
+* **Number of Amino Acids Affected:** Only one amino acid is affected (Arginine is replaced by Glutamine).
+* **Insertions/Deletions:** No amino acids were inserted or deleted.
+* **Reading Frame & Length:** The reading frame did not shift, and the total protein length remained identical.
+* **Final Mutation Type Classification:** Missense
+
+## 8. Artificial Mutation Experiment
+* **Chosen Artificial Mutation:** One-nucleotide deletion at position 1208 (c.1208delG).
+* **WT CDS Length vs Artificial Mutant CDS Length:** 5808 nucleotides (WT) vs. 5807 nucleotides (Artificial Mutant).
+* **Protein Length Effect:** The artificial mutant protein is significantly shortened compared to the 1935-amino-acid WT protein.
+* **Reading Frame Effect:** Deleting a single nucleotide at position 1208 disrupted the triplet codon structure, shifting the reading frame completely out of sequence from codon 403 onward, which quickly produced a premature stop codon.
+* **Comparison to Documented Mutation:** The documented mutation (c.1208G>A) was a simple substitution that only changed a single building block, leaving the rest of the 1935-amino-acid chain intact. In stark contrast, deleting just one nucleotide at the exact same location (c.1208delG) destroyed the reading frame, resulting in a severely truncated, non-functional protein. This highlights why mutation *type* is just as critical as mutation *location*.
+
+## 9. Molecular Interpretation
+**Mechanism:** DNA sequence change -> codon change -> protein sequence change -> structural/functional change -> cellular consequence -> disease or phenotype.
+
+The documented c.1208G>A mutation alters the DNA sequence of the MYH7 transcript, changing codon 403 from CGG (Arginine) to CAG (Glutamine). This results in a single missense amino acid substitution in the predicted protein sequence. Because this amino acid change occurs precisely in the highly conserved motor domain of the beta-myosin heavy chain (where myosin interacts with actin), it alters the biophysical properties and enzymatic activity of the protein. At the cellular level, this mutated myosin incorporates into the sarcomere but impairs actin-myosin cross-bridge cycling. To compensate for this mechanical inefficiency and maintain cardiac output, the cardiac muscle cells undergo pathological hypertrophy (enlargement). Over time, this cellular response manifests as the macroscopic thickening of the ventricular walls, which is the defining clinical phenotype of Familial hypertrophic cardiomyopathy.
+
+## 10. Limitations
+The translation of a DNA sequence computationally only predicts the primary protein sequence encoded by that CDS. It does not demonstrate that the mutant MYH7 protein is actually expressed, correctly folded, or effectively incorporated into the sarcomere within a living human cardiac cell. Determining protein abundance, stability, and exact kinetic activity requires additional in vivo or in vitro experimental evidence (such as western blotting, animal models, or in vitro motility assays).
+
+## 11. Conclusion
+This computational sequence analysis successfully demonstrated how a specific, single-nucleotide substitution (c.1208G>A) in the MYH7 gene alters a critical residue in the beta-myosin heavy chain without disrupting the overall protein length. These findings support the established molecular basis of Familial hypertrophic cardiomyopathy, illustrating how localized structural changes in molecular motors drive compensatory, disease-causing cellular phenotypes.
+
+## 12. References
+1. *Cell and Molecular Biology Laboratory: From Gene Mutation to Disease*. (Laboratory Manual).
+2. ClinVar Database. National Center for Biotechnology Information. Accession: VCV000014088 (MYH7 c.1208G>A / p.Arg403Gln).
