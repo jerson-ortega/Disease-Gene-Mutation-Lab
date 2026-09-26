@@ -53,15 +53,15 @@ The official gene symbol is MYH7, located on human chromosome 14 at band 14q11.2
 
 | Parameter | Details |
 | :--- | :--- |
-| Gene | MYH7 (Myosin heavy chain 7)[span_0](start_span)[span_0](end_span) |
-| Reference transcript | NM_000257.4[span_1](start_span)[span_1](end_span) |
-| Exact variant notation | c.1208G>A[span_2](start_span)[span_2](end_span) |
-| Nucleotide change | Guanine to Adenine substitution at position 1208[span_3](start_span)[span_3](end_span) |
-| Predicted protein change | p.Arg403Gln (Arginine replaced by Glutamine at codon 403)[span_4](start_span)[span_4](end_span) |
-| Mutation type | Single nucleotide variant / Missense mutation[span_5](start_span)[span_5](end_span) |
-| ClinVar accession | VCV000014088[span_6](start_span)[span_6](end_span) |
-| Clinical interpretation | Pathogenic[span_7](start_span)[span_7](end_span) |
-| Reference | Geisterfer-Lowrance et al. (1990)[span_8](start_span)[span_8](end_span) |
+| Gene | MYH7 (Myosin heavy chain 7)) |
+| Reference transcript | NM_000257. |
+| Exact variant notation | c.1208G>A |
+| Nucleotide change | Guanine to Adenine substitution at position 1208 |
+| Predicted protein change | p.Arg403Gln (Arginine replaced by Glutamine at codon 403) |
+| Mutation type | Single nucleotide variant / Missense mutation |
+| ClinVar accession | VCV000014088 |
+| Clinical interpretation | Pathogenic |
+| Reference | Geisterfer-Lowrance et al. (1990)) |
 
 ---
 
